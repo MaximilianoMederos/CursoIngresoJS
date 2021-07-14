@@ -1,6 +1,14 @@
+/*
+Al presionar el Botón, mostrar un número Random del 1 al 10 inclusive
+*/
+
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	var numero;
+
+	numero = (Math.random() * 10) + 1;
+	numero = parseInt(numero);
+
+	alert("El numero es: " + numero);
 
 }//FIN DE LA FUNCIÓN
